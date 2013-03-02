@@ -21,6 +21,7 @@ require_once "lpchatvariable.php";
         <input type="submit" value="Analyze this!" />
     </form>
     <p>    . . . be patient, it can take a long time to read each page</p>
+    <p><font size="-2">non-traditional SiteMap? Change the <a href="http://www.w3schools.com/xpath/xpath_syntax.asp" target="_blank">XPath expression</a> at <i>websitescraper.php:57</i></font></p>
     
 <?php
 if (isset($_GET['siteMapURL'])) {
